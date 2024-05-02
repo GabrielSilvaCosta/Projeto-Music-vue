@@ -11,6 +11,7 @@
           <!-- Play/Pause Button -->
           <!-- adcionamos o evento de click para clicar no botão de play -->
           <button
+            id="play-btn"
             @click.prevent="newSong(song)"
             type="button"
             class="z-50 h-24 w-24 text-3xl bg-white text-black rounded-full focus:outline-none"
